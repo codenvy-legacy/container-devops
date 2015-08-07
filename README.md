@@ -40,7 +40,6 @@ Docker [Machine](https://www.docker.com/docker-machine) (automated Docker provis
 
 Docker [Swarm](https://docs.docker.com/swarm/) (native clustering for Docker)
 
-
 EngineYard [OpenDeis](http://deis.io/overview/) (open source PaaS for Docker)
 
 Joyent [Triton](https://www.joyent.com/) (elastic container infrastructure)
@@ -133,13 +132,14 @@ JetBrains [IntelliJ Idea](https://www.jetbrains.com/idea/) (manage Docker contai
 
 [Nitrous.io](https://pro.nitrous.io/?l=1) (Docker containers as workspace)
 
+Progrium [Envy](https://github.com/progrium/envy) (lightweight developer environments)
+
 [Vagrant](http://docs.vagrantup.com/v2/provisioning/docker.html) (Docker provisioner)
 
 VMware [AppCatalyst](http://blogs.vmware.com/cloudnative/vmware-appcatalyst) (desktop hypervisor optimized for containers)
 
-
-
 ####Source Code Management
+
 
 
 ###Continuous Integration
@@ -160,7 +160,6 @@ CodeShip [ParallelCI](https://codeship.com/features/parallelci) (parallel testin
 
 [Wercker](http://wercker.com/) (containerized build pipeline)
 
-
 ####Code Quality Analysis
 [CodeClimate](https://codeclimate.com/) (static analysis with containers)
 
@@ -168,14 +167,12 @@ CodeShip [ParallelCI](https://codeship.com/features/parallelci) (parallel testin
 
 [SonarQube](http://www.sonarqube.org/) (code quality with containers)
 
-
 ####Packaging and Build Automation
 Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(using Docker containers to create build agents)
 
 [Bitnami](https://bitnami.com/) (image cloud hosting)
 
 [Gradle](https://gradle.org) (build management through Docker)
-
 
 ####Testing Frameworks
 [Salt](http://docs.saltstack.com/en/latest/ref/states/all/salt.states.dockerio.html) (allows unit testing within container)
@@ -189,8 +186,8 @@ Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(using Docker conta
 [RoboCI](https://github.com/Codegyre/RoboCI) (aimed to run Travis CI builds locally inside Docker containers)
 
 
-###Continuous Deployment
 
+###Continuous Deployment
 ####Artifact and Image Registry
 Docker [Hub](https://www.docker.com/docker-hub) (hosted registry service)
 
