@@ -8,7 +8,7 @@ Containers are disrupting DevOps by automating software delivery into easily man
 Containers provide a common set of building blocks that can be reused in any stage of development to recreate identical environments for development, testing, staging, and production.  Containers extend the idea of "write once, deploy anywhere" to an infrastructure abstraction that application developers can easily consume and operations professionals can predictably manage.
 
 ##Containers Make Tooling Consistent
-Containers provide a disposable, resuable unit of tooling that can execute a segment of a delivery pipeline.  Now critical code quality, analysis, build, and test functions can be packaged as containers and consistently reused within developer workspaces, continuous integration systems, and release management tools. Service injection into containers is allowed code productivity and tooling vendors to provide value in every phase of the pipeline.
+Containers provide a disposable, resuable unit of tooling that can execute a segment of a delivery pipeline.  Now critical code quality, analysis, build, and test functions can be packaged as containers and consistently reused within developer workspaces, continuous integration systems, and release management tools. Service injection into containers allows developers to code more productively and tooling vendors to provide value in every phase of the pipeline.
 
 ##Container Infrastructure
 ActiveState [Stackato](http://www.activestate.com/stackato) (agile PaaS platform optimized for containers)
@@ -177,8 +177,6 @@ Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(using Docker conta
 ####Testing Frameworks
 [Salt](http://docs.saltstack.com/en/latest/ref/states/all/salt.states.dockerio.html) (allows unit testing within container)
 
-[New Relic](http://newrelic.com/docker) (unit testing and monitoring app performance for Docker)
-
 [SeleniumEnv](https://github.com/Codeception/SeleniumEnv) (can be run through Docker instead of installed)
 
 [PhantomJsEnv](https://github.com/Codeception/PhantomJsEnv) (can be run through Docker instead of installed)
@@ -202,9 +200,9 @@ JFrog [Artifactory](http://www.jfrog.com/confluence/display/RTF/Docker+Repositor
 [Tutum Registry] (https://support.tutum.co/support/solutions/articles/5000012183-using-tutum-s-private-Docker-image-registry) (private Docker registry)
 
 ####Release Automation
-Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (how to integrate with Docker can be found here)
+Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (application management for container & VM infrastructure)
 
-[Ansible](http://www.ansible.com/docker) (playbooks will generate consistent app in containers & vms)
+[Ansible](http://www.ansible.com/docker) (playbooks will generate consistent app in containers & VMs)
 
 [Chef.io](https://www.chef.io/solutions/containers/) (container management, provisioning and automation)
 
