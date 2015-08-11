@@ -1,14 +1,14 @@
 # container-devops
 
 #How Containers are Disrupting Devops
-Containers are disrupting DevOps by automating software delivery into easily manageable segments. The DevOps pipeline is autonomous, recurring process comprised of continuous development, integration, and deployment.  We asked, “how are containers redefining how DevOps is handled and what vendors and products are leading the change?”
+Containers are disrupting DevOps by automating software delivery into easily manageable segments. The DevOps pipeline is an autonomous, recurring process, comprised of continuous development, integration, and deployment. We asked, “How are containers redefining how DevOps is handled and what vendors and products are leading the change?”
 
 
 ##Containers Make Environments Consistent
-Containers provide a common set of building blocks that can be reused in any stage of development to recreate identical environments for development, testing, staging, and production.  Containers extend the idea of "write once, deploy anywhere" to an infrastructure abstraction that application developers can easily consume and operations professionals can predictably manage.
+Containers provide a common set of building blocks that can be reused in any stage of development to recreate identical environments for development, testing, staging, and production. Containers extend the idea of write once; deploy anywhere, to an infrastructure abstraction that application developers can easily consume and operations professionals can predictably manage.
 
 ##Containers Make Tooling Consistent
-Containers provide a disposable, resuable unit of tooling that can execute a segment of a delivery pipeline.  Now critical code quality, analysis, build, and test functions can be packaged as containers and consistently reused within developer workspaces, continuous integration systems, and release management tools. Service injection into containers allows developers to code more productively and tooling vendors to provide value in every phase of the pipeline.
+Containers provide a disposable, reusable unit of tooling that can execute a segment of a delivery pipeline. Now, critical code quality, analysis, build, and test functions can be packaged as containers and consistently reused within developer workspaces, continuous integration systems, and release management tools. Service injection into containers allows developers to code more productively and tooling vendors to provide value in every phase of the pipeline.
 
 ##Container Infrastructure
 ActiveState [Stackato](http://www.activestate.com/stackato) (agile PaaS platform optimized for containers)
@@ -29,18 +29,18 @@ ClusterHQ [Flocker](https://clusterhq.com/2015/06/17/flocker-1-0/) (open source 
 
 CoreOS [Tectonic](https://tectonic.com/) (kubernetes cluster for Docker)
 
-CoreOS [Flannel](https://coreos.com/flannel/docs/latest/flannel-config.html) (cross-container communication)
+CoreOS [flannel](https://coreos.com/flannel/docs/latest/flannel-config.html) (cross-container communication)
 
 Datawise.io [Project 6](http://www.datawise.io/project-6.html) (deploy and manage Docker 
 containers across clusters)
 
 Docker [Compose](https://docs.docker.com/compose/) (define and running multi-container applications)
 
-Docker [Machine](https://www.docker.com/docker-machine) (automated Docker provisioning)
+Docker [Machine](https://docs.docker.com/machine/) (automated Docker provisioning)
 
 Docker [Swarm](https://docs.docker.com/swarm/) (native clustering for Docker)
 
-EngineYard [OpenDeis](http://deis.io/overview/) (open source PaaS for Docker)
+EngineYard [Deis](http://deis.io/overview/) (open source PaaS for Docker)
 
 Joyent [Triton](https://www.joyent.com/) (elastic container infrastructure)
 
@@ -48,15 +48,15 @@ Google [Compute Engine](https://cloud.google.com/compute/) (PaaS with container 
 
 Google [Kubernetes](http://kubernetes.io/) (orchestration of services running pods of containers)
 
-HashiCorp [Packer.io](https://www.packer.io/) (image construction automation)
+HashiCorp [Packer](https://www.packer.io/) (image construction automation)
 
-HashiCorp [Consul.io](https://www.consul.io/) (finds and configure infrastructure services)
+HashiCorp [Consul](https://www.consul.io/) (finds and configure infrastructure services)
 
 IBM [Bluemix](https://console.ng.bluemix.net/) (hybrid PaaS based upon CloudFoundry and Docker)
 
 [Jelastic](https://jelastic.com/docker/) (multi-container orchestration platform)
 
-Microsoft [Azure](https://azure.microsoft.com/en-us/) (PaaS with container managed services)
+Microsoft [Azure](https://azure.microsoft.com/en-us/) (PaaS with container-managed services)
 
 Mesosphere [DCOS] (https://mesosphere.com/product/) (data center OS works with Docker)
 
@@ -78,15 +78,15 @@ Red Hat [Atomic](http://www.projectatomic.io/) (lightweight immutable platform f
 
 Red Hat [OpenShift](https://www.openshift.com/) (hybrid PaaS based on Docker)
 
-VMware [Photon](https://vmware.github.io/photon/) (lightweight linux host for containers)
+VMware [Photon](https://vmware.github.io/photon/) (lightweight Linux host for containers)
 
-[Weave](http://weave.in/) (create a network of Docker containers)
+[Weave](http://weave.in/) (creates a network of Docker containers)
 
 ----------------------------------------------------------------------
 
 1st column
 ##DevOps Pipeline:
-1. Author Code & Check In
+1. Author Code & Check-In
 
 2. Check Out & Build Code
 
@@ -100,9 +100,9 @@ VMware [Photon](https://vmware.github.io/photon/) (lightweight linux host for co
 
 7. Deploy to Test Environment
 
-8. Deploy to pre-production
+8. Deploy to Pre-Production
 
-9. Acceptance testing
+9. Acceptance Testing
 
 10. Deploy to Production
 
@@ -124,13 +124,13 @@ Continuous Deployment
 ####Developer Workspace
 [Codenvy] (https://codenvy.com/) (RESTful workspaces built with Docker containers)
 
-[CodeFresh] (http://codefresh.io/) (NodeJS workspaces built with Docker)
+[Codefresh] (http://codefresh.io/) (NodeJS workspaces built with Docker)
 
-Eclipse [Che] (http://www.eclipse.org/che/) (hosted workspaces that use containers for microservices)
+Eclipse [Che] (http://www.eclipse.org/che/) (hosted workspaces using containers for microservices)
 
-JetBrains [IntelliJ Idea](https://www.jetbrains.com/idea/) (manage Docker containers from IDE)
+JetBrains [IntelliJ IDEA](https://www.jetbrains.com/idea/) (manages Docker containers from IDE)
 
-[Nitrous.io](https://pro.nitrous.io/?l=1) (Docker containers as workspace)
+[Nitrous](https://pro.nitrous.io/?l=1) (Docker containers as workspaces)
 
 Progrium [Envy](https://github.com/progrium/envy) (lightweight developer environments)
 
@@ -150,25 +150,25 @@ VMware [AppCatalyst](http://blogs.vmware.com/cloudnative/vmware-appcatalyst) (de
 
 XebiaLabs [Overcast](https://github.com/xebialabs/overcast) (Docker for integration testing with other services)
 
-Cloudbees [Jenkins CI](https://www.cloudbees.com/jenkins/about/code-quality-analysis) (build slaves runnable within  containers)
+CloudBees [Jenkins CI](https://www.cloudbees.com/jenkins/about/code-quality-analysis) (build slaves runnable within  containers)
 
 [CircleCi](https://circleci.com/docs/docker) (supports Docker-based dev, test and deploy workflow)
 
-CodeShip [ParallelCI](https://codeship.com/features/parallelci) (parallel testing with containers)
+Codeship [ParallelCI](https://codeship.com/features/parallelci) (parallel testing with containers)
 
 [Shippable](https://app.shippable.com/) (automated DevOps with Docker)
 
 [Wercker](http://wercker.com/) (containerized build pipeline)
 
 ####Code Quality Analysis
-[CodeClimate](https://codeclimate.com/) (static analysis with containers)
+[Code Climate](https://codeclimate.com/) (static analysis with containers)
 
-[Screener.io](https://screener.io/) (screens code before and after being Dockerized)
+[Screener](https://screener.io/) (screens code before and after being Dockerized)
 
 [SonarQube](http://www.sonarqube.org/) (code quality with containers)
 
 ####Packaging and Build Automation
-Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(using Docker containers to create build agents)
+Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(uses Docker containers to create build agents)
 
 [Bitnami](https://bitnami.com/) (image cloud hosting)
 
@@ -187,9 +187,9 @@ Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(using Docker conta
 
 ###Continuous Deployment
 ####Artifact and Image Registry
-Docker [Hub](https://www.docker.com/docker-hub) (hosted registry service)
+Docker [Hub](https://hub.docker.com/) (hosted registry service)
 
-Docker [Trusted Registry](https://www.docker.com/docker-trusted-registry) (private dedicated image registry)
+Docker [Trusted Registry](https://docs.docker.com/docker-trusted-registry/) (private dedicated image registry)
 
 [Google Container Registry] (https://cloud.google.com/container-registry/) (secure Docker image storage)
 
@@ -204,7 +204,7 @@ Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (application management for c
 
 [Ansible](http://www.ansible.com/docker) (playbooks will generate consistent app in containers & VMs)
 
-[Chef.io](https://www.chef.io/solutions/containers/) (container management, provisioning and automation)
+[Chef](https://www.chef.io/solutions/containers/) (container management, provisioning and automation)
 
 PuppetLabs [Puppet Forge](https://forge.puppetlabs.com/tags/docker) (Docker management)
 
@@ -214,11 +214,11 @@ PuppetLabs [Puppet Forge](https://forge.puppetlabs.com/tags/docker) (Docker mana
 ####Operations Tools
 [AppDynamics](http://community.appdynamics.com/t5/eXchange-Community-AppDynamics/Docker-Monitoring-Extension/idi-p/14749) (extension for Docker monitoring)
 
-CenturyLink Labs [Panamax.io] (http://panamax.io/) (tools to visualize & manage containers)
+CenturyLink Labs [Panamax] (http://panamax.io/) (tools to visualize & manage containers)
 
 [New Relic](https://blog.newrelic.com/2015/05/06/docker-support-2/) (distributed container monitoring and analytics)
 
-[Sysdig] (https://sysdig.com/distributed-container-monitoring-sysdig-cloud-revolution/) (distributed container monitoring)
+[Sysdig Cloud] (https://sysdig.com/distributed-container-monitoring-sysdig-cloud-revolution/) (distributed container monitoring)
 
 [SignalFx](http://blog.signalfx.com/signalfx-is-proud-to-join-the-docker-ecosystem-technology-partner-program) (streaming analytics of Docker apps)
 
