@@ -1,7 +1,7 @@
 # container-devops
 
 #How Containers are Disrupting Devops
-Containers are disrupting DevOps by automating software delivery into easily manageable segments. The DevOps pipeline is an autonomous, recurring process, comprised of continuous development, integration, and deployment. We asked, “How are containers redefining how DevOps is handled and what vendors and products are leading the change?”
+Containers are disrupting DevOps by automating software delivery into easily manageable segments. The DevOps pipeline is an autonomous, recurring process, comprised of continuous development, integration, and deployment. We asked ourselves, “How are containers redefining how DevOps is handled and what vendors and products are leading the change?”
 
 
 ##Containers Make Environments Consistent
