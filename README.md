@@ -80,6 +80,8 @@ Red Hat [Atomic](http://www.projectatomic.io/) (lightweight immutable platform f
 
 Red Hat [OpenShift](https://www.openshift.com/) (hybrid PaaS based on Docker)
 
+[Ruxit](https://ruxit.com/docker-monitoring/#docker_cta) (monitor containerized apps in dynamic Docker environments)
+
 VMware [Photon](https://vmware.github.io/photon/) (lightweight Linux host for containers)
 
 [Weave](http://weave.in/) (creates a network of Docker containers)
