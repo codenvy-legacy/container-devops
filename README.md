@@ -176,6 +176,8 @@ Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(uses Docker contai
 
 [Bitnami](https://bitnami.com/) (image cloud hosting)
 
+CloudNative [Bakery](https://cloudnative.io/bakery/) (build Amazon Machine Images automatically)
+
 [Gradle](https://gradle.org) (build management through Docker)
 
 ####Testing Frameworks
@@ -209,6 +211,8 @@ Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (application management for c
 [Ansible](http://www.ansible.com/docker) (playbooks will generate consistent app in containers & VMs)
 
 [Chef](https://www.chef.io/solutions/containers/) (container management, provisioning and automation)
+
+CloudNative [Delta](https://cloudnative.io/delta/) (AWS deployment management with autoscaling support)
 
 PuppetLabs [Puppet Forge](https://forge.puppetlabs.com/tags/docker) (Docker management)
 
