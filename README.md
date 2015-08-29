@@ -42,6 +42,8 @@ Docker [Swarm](https://docs.docker.com/swarm/) (native clustering for Docker)
 
 EngineYard [Deis](http://deis.io/overview/) (open source PaaS for Docker)
 
+Hedvig [Hedvig](http://www.hedviginc.com/) (Docker plugin for software defined storage)
+
 Joyent [Triton](https://www.joyent.com/) (elastic container infrastructure)
 
 [Kontena](http://www.kontena.io/) (application containers for masses)
