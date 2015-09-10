@@ -9,85 +9,6 @@ Containers provide a common set of building blocks that can be reused in any sta
 
 ##Containers Make Tooling Consistent
 Containers provide a disposable, reusable unit of tooling that can execute a segment of a delivery pipeline. Now, critical code quality, analysis, build, and test functions can be packaged as containers and consistently reused within developer workspaces, continuous integration systems, and release management tools. Service injection into containers allows developers to code more productively and tooling vendors to provide value in every phase of the pipeline.
-
-##Container Infrastructure
-ActiveState [Stackato](http://www.activestate.com/stackato) (agile PaaS platform optimized for containers)
-
-Alpine [Linux](http://www.alpinelinux.org) (lightweight operating system container-optimized)
-
-Amazon [EC2 Container Service](http://aws.amazon.com/ecs/) (Docker extension tools)
-
-Apache [Mesos](http://mesos.apache.org/) (distributed systems and container kernel)
-
-Apache [Zookeeper](https://zookeeper.apache.org) (centralizes container configurations)
-
-CenturyLink [Cloud] (https://www.ctl.io/) (cloud management service with container support)
-
-[Ceph](http://ceph.com/) (distributed block storage for Docker)
-
-ClusterHQ [Flocker](https://clusterhq.com/2015/06/17/flocker-1-0/) (open source container data volume manager)
-
-CoreOS [Tectonic](https://tectonic.com/) (kubernetes cluster for Docker)
-
-CoreOS [flannel](https://coreos.com/flannel/docs/latest/flannel-config.html) (cross-container communication)
-
-Datawise.io [Project 6](http://www.datawise.io/project-6.html) (deploy and manage Docker 
-containers across clusters)
-
-Docker [Compose](https://docs.docker.com/compose/) (define and running multi-container applications)
-
-Docker [Machine](https://docs.docker.com/machine/) (automated Docker provisioning)
-
-Docker [Swarm](https://docs.docker.com/swarm/) (native clustering for Docker)
-
-EngineYard [Deis](http://deis.io/overview/) (open source PaaS for Docker)
-
-Hedvig [Hedvig](http://www.hedviginc.com/) (Docker plugin for software defined storage)
-
-Joyent [Triton](https://www.joyent.com/) (elastic container infrastructure)
-
-[Kontena](http://www.kontena.io/) (application containers for masses)
-
-Google [Compute Engine](https://cloud.google.com/compute/) (PaaS with container managed service)
-
-Google [Kubernetes](http://kubernetes.io/) (orchestration of services running pods of containers)
-
-HashiCorp [Packer](https://www.packer.io/) (image construction automation)
-
-HashiCorp [Consul](https://www.consul.io/) (finds and configure infrastructure services)
-
-IBM [Bluemix](https://console.ng.bluemix.net/) (hybrid PaaS based upon CloudFoundry and Docker)
-
-[Jelastic](https://jelastic.com/docker/) (multi-container orchestration platform)
-
-Microsoft [Azure](https://azure.microsoft.com/en-us/) (PaaS with container-managed services)
-
-Mesosphere [DCOS] (https://mesosphere.com/product/) (data center OS works with Docker)
-
-[Nirmata] (http://nirmata.com/tag/docker/) (application deployment and operations with Docker)
-
-OpenStack [Nova](https://wiki.openstack.org/wiki/Docker) (launches containers on a massive scale)
-
-[Pertino](http://pertino.com/pertino-simplifies-networking-of-docker-containers-across-any-cloud-anywhere) (builds container-level VPC networks)
-
-Portworx [PWX](http://portworx.com/products/) (scale out block storage for Docker)
-
-Rackspace [Managed Cloud](http://www.rackspace.com/cloud) (management software)
-
-RancherLabs [Rancher](http://rancher.com/rancher/) (infrastructure platform for Docker)
-
-RancherLabs [RancherOS](http://rancher.com/rancher-os/) (Linux distribution that runs OS as Docker containers) 
-
-Red Hat [Atomic](http://www.projectatomic.io/) (lightweight immutable platform for running containers)
-
-Red Hat [OpenShift](https://www.openshift.com/) (hybrid PaaS based on Docker)
-
-[Ruxit](https://ruxit.com/docker-monitoring/#docker_cta) (monitor containerized apps in dynamic Docker environments)
-
-VMware [Photon](https://vmware.github.io/photon/) (lightweight Linux host for containers)
-
-[Weave](http://weave.in/) (creates a network of Docker containers)
-
 ----------------------------------------------------------------------
 
 1st column
@@ -145,7 +66,7 @@ Progrium [Envy](https://github.com/progrium/envy) (lightweight developer environ
 VMware [AppCatalyst](http://blogs.vmware.com/cloudnative/vmware-appcatalyst) (desktop hypervisor optimized for containers)
 
 ####Source Code Management
-
+Source code repos are critical to development but there are no container-specific required by these systems and so were not listed here.
 
 
 ###Continuous Integration
@@ -228,6 +149,88 @@ CenturyLink Labs [Panamax] (http://panamax.io/) (tools to visualize & manage con
 
 [SignalFx](http://blog.signalfx.com/signalfx-is-proud-to-join-the-docker-ecosystem-technology-partner-program) (streaming analytics of Docker apps)
 
+
+----------------------------------------------------------------------
+
+##Container Infrastructure
+Many vendors provide tools and platforms to support the building, networking, hosting and running of containers.  These foundational products are leveraged throughout the DevOps pipeline.
+
+ActiveState [Stackato](http://www.activestate.com/stackato) (agile PaaS platform optimized for containers)
+
+Alpine [Linux](http://www.alpinelinux.org) (lightweight operating system container-optimized)
+
+Amazon [EC2 Container Service](http://aws.amazon.com/ecs/) (Docker extension tools)
+
+Apache [Mesos](http://mesos.apache.org/) (distributed systems and container kernel)
+
+Apache [Zookeeper](https://zookeeper.apache.org) (centralizes container configurations)
+
+CenturyLink [Cloud] (https://www.ctl.io/) (cloud management service with container support)
+
+[Ceph](http://ceph.com/) (distributed block storage for Docker)
+
+ClusterHQ [Flocker](https://clusterhq.com/2015/06/17/flocker-1-0/) (open source container data volume manager)
+
+CoreOS [Tectonic](https://tectonic.com/) (kubernetes cluster for Docker)
+
+CoreOS [flannel](https://coreos.com/flannel/docs/latest/flannel-config.html) (cross-container communication)
+
+Datawise.io [Project 6](http://www.datawise.io/project-6.html) (deploy and manage Docker 
+containers across clusters)
+
+Docker [Compose](https://docs.docker.com/compose/) (define and running multi-container applications)
+
+Docker [Machine](https://docs.docker.com/machine/) (automated Docker provisioning)
+
+Docker [Swarm](https://docs.docker.com/swarm/) (native clustering for Docker)
+
+EngineYard [Deis](http://deis.io/overview/) (open source PaaS for Docker)
+
+Hedvig [Hedvig](http://www.hedviginc.com/) (Docker plugin for software defined storage)
+
+Joyent [Triton](https://www.joyent.com/) (elastic container infrastructure)
+
+[Kontena](http://www.kontena.io/) (application containers for masses)
+
+Google [Compute Engine](https://cloud.google.com/compute/) (PaaS with container managed service)
+
+Google [Kubernetes](http://kubernetes.io/) (orchestration of services running pods of containers)
+
+HashiCorp [Packer](https://www.packer.io/) (image construction automation)
+
+HashiCorp [Consul](https://www.consul.io/) (finds and configure infrastructure services)
+
+IBM [Bluemix](https://console.ng.bluemix.net/) (hybrid PaaS based upon CloudFoundry and Docker)
+
+[Jelastic](https://jelastic.com/docker/) (multi-container orchestration platform)
+
+Microsoft [Azure](https://azure.microsoft.com/en-us/) (PaaS with container-managed services)
+
+Mesosphere [DCOS] (https://mesosphere.com/product/) (data center OS works with Docker)
+
+[Nirmata] (http://nirmata.com/tag/docker/) (application deployment and operations with Docker)
+
+OpenStack [Nova](https://wiki.openstack.org/wiki/Docker) (launches containers on a massive scale)
+
+[Pertino](http://pertino.com/pertino-simplifies-networking-of-docker-containers-across-any-cloud-anywhere) (builds container-level VPC networks)
+
+Portworx [PWX](http://portworx.com/products/) (scale out block storage for Docker)
+
+Rackspace [Managed Cloud](http://www.rackspace.com/cloud) (management software)
+
+RancherLabs [Rancher](http://rancher.com/rancher/) (infrastructure platform for Docker)
+
+RancherLabs [RancherOS](http://rancher.com/rancher-os/) (Linux distribution that runs OS as Docker containers) 
+
+Red Hat [Atomic](http://www.projectatomic.io/) (lightweight immutable platform for running containers)
+
+Red Hat [OpenShift](https://www.openshift.com/) (hybrid PaaS based on Docker)
+
+[Ruxit](https://ruxit.com/docker-monitoring/#docker_cta) (monitor containerized apps in dynamic Docker environments)
+
+VMware [Photon](https://vmware.github.io/photon/) (lightweight Linux host for containers)
+
+[Weave](http://weave.in/) (creates a network of Docker containers)
 
 
 
