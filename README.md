@@ -130,46 +130,42 @@ Continuous Deployment
 ####Developer Workspace
 [Codenvy] (https://codenvy.com/) (RESTful workspaces built with Docker containers)
 
-[Codefresh] (http://codefresh.io/) (NodeJS workspaces built with Docker)
-
 Eclipse [Che] (http://www.eclipse.org/che/) (hosted workspaces using containers for microservices)
 
 JetBrains [IntelliJ IDEA](https://www.jetbrains.com/idea/) (manages Docker containers from IDE)
 
 [Nitrous](https://pro.nitrous.io/?l=1) (Docker containers as workspaces)
 
-Progrium [Envy](https://github.com/progrium/envy) (lightweight developer environments)
-
 [Vagrant](http://docs.vagrantup.com/v2/provisioning/docker.html) (Docker provisioner)
 
 VMware [AppCatalyst](http://blogs.vmware.com/cloudnative/vmware-appcatalyst) (desktop hypervisor optimized for containers)
 
 ####Source Code Management
-
+Source code repos are critical to development but because all standard SCMs can be used specific products are not listed.
 
 
 ###Continuous Integration
 ####Continuous Integration
-[Drone.io](http://blog.drone.io/2014/2/5/open-source-ci-docker.html) (open source continuous integration built on Docker)
-
-[Electric Cloud](http://electric-cloud.com/plugins/directory/p/docker/) (plug-in to invoke containers while building)
-
-XebiaLabs [Overcast](https://github.com/xebialabs/overcast) (Docker for integration testing with other services)
+[CircleCi](https://circleci.com/docs/docker) (supports Docker-based dev, test and deploy workflow)
 
 CloudBees [Jenkins CI](https://www.cloudbees.com/jenkins/about/code-quality-analysis) (build slaves runnable within  containers)
 
-[CircleCi](https://circleci.com/docs/docker) (supports Docker-based dev, test and deploy workflow)
+[Codefresh] (http://codefresh.io/) (Docker-based continuous integration for NodeJS)
 
 Codeship [ParallelCI](https://codeship.com/features/parallelci) (parallel testing with containers)
+
+[Drone.io](http://blog.drone.io/2014/2/5/open-source-ci-docker.html) (open source continuous integration built on Docker)
+
+[Electric Cloud](http://electric-cloud.com/plugins/directory/p/docker/) (plug-in to invoke containers while building)
 
 [Shippable](https://app.shippable.com/) (automated DevOps with Docker)
 
 [Wercker](http://wercker.com/) (containerized build pipeline)
 
+XebiaLabs [Overcast](https://github.com/xebialabs/overcast) (Docker for integration testing with other services)
+
 ####Code Quality Analysis
 [Code Climate](https://codeclimate.com/) (static analysis with containers)
-
-[Screener](https://screener.io/) (screens code before and after being Dockerized)
 
 [SonarQube](http://www.sonarqube.org/) (code quality with containers)
 
@@ -181,13 +177,12 @@ Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(uses Docker contai
 [Gradle](https://gradle.org) (build management through Docker)
 
 ####Testing Frameworks
-[Salt](http://docs.saltstack.com/en/latest/ref/states/all/salt.states.dockerio.html) (allows unit testing within container)
-
-[SeleniumEnv](https://github.com/Codeception/SeleniumEnv) (can be run through Docker instead of installed)
-
 [PhantomJsEnv](https://github.com/Codeception/PhantomJsEnv) (can be run through Docker instead of installed)
 
 [RoboCI](https://github.com/Codegyre/RoboCI) (aimed to run Travis CI builds locally inside Docker containers)
+
+[SeleniumEnv](https://github.com/Codeception/SeleniumEnv) (can be run through Docker instead of installed)
+
 
 
 
@@ -224,9 +219,9 @@ CenturyLink Labs [Panamax] (http://panamax.io/) (tools to visualize & manage con
 
 [New Relic](https://blog.newrelic.com/2015/05/06/docker-support-2/) (distributed container monitoring and analytics)
 
-[Sysdig Cloud] (https://sysdig.com/distributed-container-monitoring-sysdig-cloud-revolution/) (distributed container monitoring)
-
 [SignalFx](http://blog.signalfx.com/signalfx-is-proud-to-join-the-docker-ecosystem-technology-partner-program) (streaming analytics of Docker apps)
+
+[Sysdig Cloud] (https://sysdig.com/distributed-container-monitoring-sysdig-cloud-revolution/) (distributed container monitoring)
 
 
 
