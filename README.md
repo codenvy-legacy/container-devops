@@ -110,7 +110,7 @@ Codeship [ParallelCI](https://codeship.com/features/parallelci) (parallel testin
 
 [Shippable](https://app.shippable.com/) (automated DevOps with Docker)
 
-[Wercker](http://wercker.com/) (containerized build pipeline)
+[Wercker](http://wercker.com/) (containerized dev, build and deploy automation)
 
 XebiaLabs [Overcast](https://github.com/xebialabs/overcast) (Docker for integration testing with other services)
 
