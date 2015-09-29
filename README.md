@@ -102,7 +102,7 @@ CloudBees [Jenkins CI](https://www.cloudbees.com/jenkins/about/code-quality-anal
 
 Codefresh [Codefresh](http://codefresh.io/) (Docker-based continuous integration for NodeJS)
 
-Codeship [ParallelCI](https://codeship.com/features/parallelci) (parallel testing with containers)
+[Codeship](https://codeship.com) (Docker-based CI&CD workflow, replicate test&prod env locally)
 
 [Drone.io](http://blog.drone.io/2014/2/5/open-source-ci-docker.html) (open source continuous integration built on Docker)
 
