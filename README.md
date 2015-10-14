@@ -140,6 +140,8 @@ Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(uses Docker contai
 ###Continuous Deployment
 
 ####Artifact and Image Registry
+Amazon [EC2 Container Registry](https://aws.amazon.com/ecr/) (managed hosted registry service)
+
 Docker [Hub](https://hub.docker.com/) (hosted registry service)
 
 Docker [Trusted Registry](https://docs.docker.com/docker-trusted-registry/) (private dedicated image registry)
