@@ -1,4 +1,4 @@
-# container-devops
+﻿# container-devops
 
 #How Containers are Disrupting Devops
 DevOps is implemented through continuous delivery software pipeline. Continuous delivery encompasses continuous development, integration and deployment. With the rapid adoption of containers we asked ourselves,
@@ -180,7 +180,6 @@ CenturyLink Labs [Panamax](http://panamax.io/) (tools to visualize & manage cont
 ----------------------------------------------------------------------
 
 ##Container Infrastructure
-ActiveState [Stackato](http://www.activestate.com/stackato) (agile PaaS platform optimized for containers)
 
 Alpine [Linux](http://www.alpinelinux.org) (lightweight operating system container-optimized)
 
