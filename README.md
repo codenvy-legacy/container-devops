@@ -110,7 +110,7 @@ Codefresh [Codefresh](http://codefresh.io/) (Docker-based continuous integration
 
 [Shippable](https://app.shippable.com/) (automated DevOps with Docker)
 
-[Travis CI](https://travis-ci.org) (continuous integration and delivery platform built on Docker and supporting Docker-based build and deployment workflow)
+[Travis CI](https://travis-ci.org) (Docker-based continuous integration and delivery)
 
 [Wercker](http://wercker.com/) (Docker-based dev, build and deploy automation)
 
