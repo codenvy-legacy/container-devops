@@ -252,6 +252,8 @@ Red Hat [Atomic](http://www.projectatomic.io/) (lightweight immutable platform f
 
 Red Hat [OpenShift](https://www.openshift.com/) (hybrid PaaS based on Docker)
 
+Magnetic.io [VAMP] (https://www.vamp.io/) (Canary-testing and -releasing for containers)
+
 VMware [Photon](https://vmware.github.io/photon/) (lightweight Linux host for containers)
 
 [Weave](http://weave.in/) (creates a network of Docker containers)
