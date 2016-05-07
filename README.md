@@ -136,7 +136,7 @@ Bitnami [Stacksmith](https://stacksmith.bitnami.com/) (image build and packager 
 
 [Salt](http://docs.saltstack.com/en/latest/ref/states/all/salt.states.dockerio.html) (allows unit testing within container)
 
-[SeleniumEnv](https://github.com/Codeception/SeleniumEnv) (can be run through Docker instead of installed)
+[Selenium](https://github.com/Codeception/SeleniumEnv) (can be run through Docker instead of installed)
 
 
 
