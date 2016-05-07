@@ -181,6 +181,8 @@ CenturyLink Labs [Panamax](http://panamax.io/) (tools to visualize & manage cont
 
 [Datadog](https://www.datadoghq.com/blog/datadog-docker-etp/) (distributed container monitoring, visualization, and analytics)
 
+[Meros](https://meros.io/) (monitoring, logs and alerts for Docker containers)
+
 [New Relic](https://blog.newrelic.com/2015/05/06/docker-support-2/) (distributed container monitoring and analytics)
 
 [SignalFx](http://blog.signalfx.com/signalfx-is-proud-to-join-the-docker-ecosystem-technology-partner-program) (streaming analytics of Docker apps)
