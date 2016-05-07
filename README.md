@@ -145,7 +145,7 @@ CenturyLink Labs [Panamax](http://panamax.io/) (tools to visualize & manage cont
 
 ##Container Infrastructure
 
-MINIMAL OS
+####MINIMAL OS  
 Alpine [Linux](http://www.alpinelinux.org) (lightweight operating system container-optimized)  
 Alpine Linux [Docker Image](http://gliderlabs.viewdocs.io/docker-alpine/) (mimialist Docker OS image)  
 [CoreOS](https://coreos.com/using-coreos/) (minimal OS for scaling with embedded Docker)  
@@ -154,26 +154,26 @@ Red Hat [Atomic](http://www.projectatomic.io/) (lightweight immutable platform f
 Ubuntu [Snappy Core](http://www.ubuntu.com/cloud/snappy) (transactional updates from within containers)  
 VMware [Photon](https://vmware.github.io/photon/) (lightweight Linux host for containers)  
 
-CONTAINER RUNTIMES
+####CONTAINER RUNTIMES  
 [libvirt LXC](https://libvirt.org/drvlxc.html) (linux container engine)  
 [runC](https://runc.io/) (lightweight container runtime)  
 Ubuntu [LXD](http://www.ubuntu.com/cloud/lxd) (linux container hypervisor)  
 
-CONTAINER SECURITY
+####CONTAINER SECURITY  
 CoreOS [clair](https://github.com/coreos/clair) (vulnerability detection in docker containers)  
 
-CONTAINER STORAGE
+####CONTAINER STORAGE  
 [Brightbox](https://brightbox.com)(high performance and flexible cloud servers and storage)  
 [Ceph](http://ceph.com/) (distributed block storage for Docker)  
 ClusterHQ [Flocker](https://clusterhq.com/2015/06/17/flocker-1-0/) (open source container data volume manager)  
 Portworx [PWX](http://portworx.com/products/) (scale out block storage for Docker)  
 
-CONTAINER NETWORKING
+####CONTAINER NETWORKING  
 CoreOS [flannel](https://coreos.com/flannel/docs/latest/flannel-config.html) (cross-container communication)  
 [Pertino](http://pertino.com/pertino-simplifies-networking-of-docker-containers-across-any-cloud-anywhere) (builds container-level VPC networks)  
 [Weave](http://weave.in/) (creates a network of Docker containers)  
 
-SERVICE DISCOVERY
+####SERVICE DISCOVERY  
 AirBnB [SmartStack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) (service discovery in the cloud)  
 Apache [Zookeeper](https://zookeeper.apache.org) (centralizes container configurations)  
 CoreOS [etcd](https://github.com/coreos/etcd) (service discovery using consensus algorithm)  
@@ -181,7 +181,7 @@ HashiCorp [Consul](https://www.consul.io/) (finds and configure infrastructure s
 [Mesos-DNS](https://github.com/mesosphere/mesos-dns) (DNS-based service discovery)  
 Netflix [Eureka](https://github.com/Netflix/eureka) (REST-based service discovery)  
 
-ORCHESTRATION, SCHEDULING, AND CLUSTER MANAGEMENT
+####ORCHESTRATION, SCHEDULING, AND CLUSTER MANAGEMENT  
 Apache [Mesos](http://mesos.apache.org/) (distributed systems and container kernel)  
 CoreOS [Tectonic](https://tectonic.com/) (kubernetes cluster for Docker)  
 Docker [Compose](https://docs.docker.com/compose/) (define and running multi-container applications)  
@@ -189,7 +189,7 @@ Docker [Machine](https://docs.docker.com/machine/) (automated Docker provisionin
 Docker [Swarm](https://docs.docker.com/swarm/) (native clustering for Docker)  
 Google [Kubernetes](http://kubernetes.io/) (orchestration of services running pods of containers)  
 
-PLATFORMS
+####PLATFORMS  
 Amazon [EC2 Container Service](http://aws.amazon.com/ecs/) (Docker extension tools)  
 [Apcera](https://www.apcera.com) (trust and policy-driven platform for container workloads)   
 CenturyLink [Cloud](https://www.ctl.io/) (cloud management service with container support)  
