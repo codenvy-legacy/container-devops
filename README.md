@@ -1,12 +1,11 @@
 ﻿# container-devops
 
 #How Containers are Disrupting Devops
-DevOps is implemented through continuous delivery software pipeline. Continuous delivery encompasses continuous development, integration and deployment. With the rapid adoption of containers we asked ourselves,
-“How do containers redefine DevOps?”
+DevOps is implemented through a continuous delivery software pipeline which includes development, integration and deployment. With the rapid adoption of containers we asked ourselves, “How do containers redefine DevOps?”
 
 
 ##Containers Make Environments Consistent
-Containers provide a common set of building blocks that can be reused in any stage of development to recreate identical environments for development, testing, staging, and production. Containers extend the idea of write once; deploy anywhere, to an infrastructure abstraction that application developers can easily consume and operations professionals can predictably manage.
+Containers provide common building blocks reusable in any development stage to recreate identical environments for development, testing, staging, and production. Containers extend the idea of write once; deploy anywhere, to an infrastructure abstraction that application developers can easily consume and operations professionals can predictably manage.
 
 ##Containers Make Tooling Consistent
 Containers provide a disposable, reusable unit that can execute a segment of a delivery pipeline. Critical code quality, analysis, build, and test functions can be consistently reused within developer workspaces, continuous integration systems, and release management tools. Service injection into containers allows developers to code more productively and tooling vendors to provide value throughout the pipeline.
@@ -36,7 +35,7 @@ Containers defined by recipes allow developers to edit, version and commit chang
 ----------------------------------------------------------------------
 
 ##Continuous Delivery and DevOps with Containers
-Containers are being used by the products below to evolve and revolutionize the continuous delivery and DevOps pipelines.
+Containers are used to evolve and revolutionize the continuous delivery and DevOps pipelines.
 
 1st Column
 ###Continuous Delivery:
@@ -90,8 +89,8 @@ JetBrains [IntelliJ IDEA](https://www.jetbrains.com/idea/) (manages Docker conta
 VMware [AppCatalyst](http://blogs.vmware.com/cloudnative/vmware-appcatalyst) (desktop hypervisor optimized for containers)
 
 ####Source Code Management
-Containers have not yet significantly changed source code management.
 
+[Gitlab](http://doc.gitlab.com/omnibus/docker/) (version control provided in containers)
 
 ###Continuous Integration
 
@@ -126,6 +125,8 @@ Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(uses Docker contai
 
 [Bitnami](https://bitnami.com/) (image cloud hosting)
 
+Bitnami [Stacksmith](https://stacksmith.bitnami.com/) (image build and packager through API)
+
 [Gradle](https://gradle.org) (build management through Docker)
 
 ####Testing Frameworks
@@ -148,6 +149,8 @@ Docker [Hub](https://hub.docker.com/) (hosted registry service)
 
 Docker [Trusted Registry](https://docs.docker.com/docker-trusted-registry/) (private dedicated image registry)
 
+[Flawcheck](https://flawcheck.com/) (private container registry with vulnerability scanning)
+
 [Google Container Registry](https://cloud.google.com/container-registry/) (secure Docker image storage)
 
 JFrog [Artifactory](http://www.jfrog.com/confluence/display/RTF/Docker+Repositories) (doubles as Docker and artifact registry)
@@ -157,11 +160,15 @@ JFrog [Artifactory](http://www.jfrog.com/confluence/display/RTF/Docker+Repositor
 [Tutum Registry](https://support.tutum.co/support/solutions/articles/5000012183-using-tutum-s-private-Docker-image-registry) (private Docker registry)
 
 ####Release Automation
+Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (application management for container & VM infrastructure)
+
 [Ansible](http://www.ansible.com/docker) (playbooks will generate consistent app in containers & VMs)
 
 [Chef](https://www.chef.io/solutions/containers/) (container management, provisioning and automation)
 
-Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (application management for container & VM infrastructure)
+[Cloud66](http://www.cloud66.com/home) (build and deploy containers across clouds)
+
+[DCHQ.io](https://www.dchq.io/landing/index.html) (container build and deployment automation)
 
 PuppetLabs [Puppet Forge](https://forge.puppetlabs.com/tags/docker) (Docker management)
 
@@ -187,6 +194,8 @@ CenturyLink Labs [Panamax](http://panamax.io/) (tools to visualize & manage cont
 
 Alpine [Linux](http://www.alpinelinux.org) (lightweight operating system container-optimized)
 
+Alpine Linux [Docker Image](http://gliderlabs.viewdocs.io/docker-alpine/) (mimialist Docker OS image)
+
 Amazon [EC2 Container Service](http://aws.amazon.com/ecs/) (Docker extension tools)
 
 Apache [Mesos](http://mesos.apache.org/) (distributed systems and container kernel)
@@ -202,6 +211,12 @@ CenturyLink [Cloud](https://www.ctl.io/) (cloud management service with containe
 [Ceph](http://ceph.com/) (distributed block storage for Docker)
 
 ClusterHQ [Flocker](https://clusterhq.com/2015/06/17/flocker-1-0/) (open source container data volume manager)
+
+[ContainerX.io](http://containerx.io/) (Container-as-a-Service platform)
+
+[CoreOS](https://coreos.com/using-coreos/) (minimal OS for scaling with embedded Docker)
+
+CoreOS [clair](https://github.com/coreos/clair) (vulnerability detection in docker containers)
 
 CoreOS [Tectonic](https://tectonic.com/) (kubernetes cluster for Docker)
 
@@ -230,9 +245,13 @@ HashiCorp [Packer](https://www.packer.io/) (image construction automation)
 
 HashiCorp [Consul](https://www.consul.io/) (finds and configure infrastructure services)
 
+HP [Helion ActiveState](http://www8.hp.com/us/en/cloud/helion-devplatform-overview.html) (PaaS with container optimizations)
+
 IBM [Bluemix](https://console.ng.bluemix.net/) (hybrid PaaS based upon CloudFoundry and Docker)
 
 [Jelastic](https://jelastic.com/docker/) (multi-container orchestration platform)
+
+Magnetic.io [VAMP] (http://www.vamp.io/) (microservices platform powered by containers)
 
 Microsoft [Azure](https://azure.microsoft.com/en-us/) (PaaS with container-managed services)
 
@@ -241,6 +260,8 @@ Mesosphere [DCOS] (https://mesosphere.com/product/) (data center OS works with D
 [Nirmata](http://nirmata.com/tag/docker/) (application deployment and operations with Docker)
 
 OpenStack [Nova](https://wiki.openstack.org/wiki/Docker) (launches containers on a massive scale)
+
+[PaSTA](https://github.com/Yelp/paasta) (uses containers to run distributed services)
 
 [Pertino](http://pertino.com/pertino-simplifies-networking-of-docker-containers-across-any-cloud-anywhere) (builds container-level VPC networks)
 
@@ -256,12 +277,17 @@ Red Hat [Atomic](http://www.projectatomic.io/) (lightweight immutable platform f
 
 Red Hat [OpenShift](https://www.openshift.com/) (hybrid PaaS based on Docker)
 
-Magnetic.io [VAMP] (http://www.vamp.io/) (Canary test and release platform for containers)
+[runC](https://runc.io/) (lightweight container runtime)
+
+[Skippbox](http://www.skippbox.com/) (toolkit to deploy Kubernetes and Docker)
+
+Ubuntu [LXD](http://www.ubuntu.com/cloud/lxd) (linux container hypervisor)
+
+Ubuntu [Snappy Core](http://www.ubuntu.com/cloud/snappy) (transactional updates from within containers)
 
 VMware [Photon](https://vmware.github.io/photon/) (lightweight Linux host for containers)
 
 [Weave](http://weave.in/) (creates a network of Docker containers)
-
 
 ----------------------------------------------------------------------
 ##Footer
