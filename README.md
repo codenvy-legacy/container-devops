@@ -196,6 +196,8 @@ CenturyLink Labs [Panamax](http://panamax.io/) (tools to visualize & manage cont
 
 ##Container Infrastructure
 
+AirBnB [SmartStack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) (service discovery in the cloud)
+
 Alpine [Linux](http://www.alpinelinux.org) (lightweight operating system container-optimized)
 
 Alpine Linux [Docker Image](http://gliderlabs.viewdocs.io/docker-alpine/) (mimialist Docker OS image)
@@ -222,6 +224,8 @@ ClusterHQ [Flocker](https://clusterhq.com/2015/06/17/flocker-1-0/) (open source 
 
 CoreOS [clair](https://github.com/coreos/clair) (vulnerability detection in docker containers)
 
+CoreOS [etcd](https://github.com/coreos/etcd) (service discovery using consensus algorithm)
+
 CoreOS [Tectonic](https://tectonic.com/) (kubernetes cluster for Docker)
 
 CoreOS [flannel](https://coreos.com/flannel/docs/latest/flannel-config.html) (cross-container communication)
@@ -241,6 +245,8 @@ Joyent [Triton](https://www.joyent.com/) (elastic container infrastructure)
 
 [Giant Swarm](https://giantswarm.io/) (native container infrastructure)
 
+Gigaspaces [Cloudify](http://getcloudify.org/) (cloud orchestration with Docker plugin)
+
 Google [Compute Engine](https://cloud.google.com/compute/) (PaaS with container managed service)
 
 Google [Kubernetes](http://kubernetes.io/) (orchestration of services running pods of containers)
@@ -255,13 +261,21 @@ IBM [Bluemix](https://console.ng.bluemix.net/) (hybrid PaaS based upon CloudFoun
 
 [Jelastic](https://jelastic.com/docker/) (multi-container orchestration platform)
 
+[libvirt LXC](https://libvirt.org/drvlxc.html) (linux container engine)
+
 Magnetic.io [VAMP] (http://www.vamp.io/) (microservices platform powered by containers)
 
 Microsoft [Azure](https://azure.microsoft.com/en-us/) (PaaS with container-managed services)
 
-Mesosphere [DCOS] (https://mesosphere.com/product/) (data center OS works with Docker)
+[Mesos-DNS](https://github.com/mesosphere/mesos-dns) (DNS-based service discovery)
+
+Mesosphere [DCOS](https://mesosphere.com/product/) (data center OS works with Docker)
+
+Netflix [Eureka](https://github.com/Netflix/eureka) (REST-based service discovery)
 
 [Nirmata](http://nirmata.com/tag/docker/) (application deployment and operations with Docker)
+
+OpenStack [Magnum](https://wiki.openstack.org/wiki/Magnum) (lauches Kubenetes or Docker ready images)
 
 OpenStack [Nova](https://wiki.openstack.org/wiki/Docker) (launches containers on a massive scale)
 
@@ -284,6 +298,8 @@ Red Hat [OpenShift](https://www.openshift.com/) (hybrid PaaS based on Docker)
 [runC](https://runc.io/) (lightweight container runtime)
 
 [Skippbox](http://www.skippbox.com/) (toolkit to deploy Kubernetes and Docker)
+
+Spotify [Helios](https://github.com/spotify/helios) (Docker orchestration platform)
 
 Ubuntu [LXD](http://www.ubuntu.com/cloud/lxd) (linux container hypervisor)
 
