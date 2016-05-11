@@ -70,8 +70,8 @@ Continuous Deployment
 [Codenvy](https://codenvy.com/) (RESTful workspaces built with Docker containers)  
 Eclipse [Che](http://www.eclipse.org/che/) (hosted workspaces using containers for microservices)  
 JetBrains [IntelliJ IDEA](https://www.jetbrains.com/idea/) (manages Docker containers from IDE)  
-[Nitrous](https://pro.nitrous.io/?l=1) (Docker containers as workspaces)  
-[Vagrant](http://docs.vagrantup.com/v2/provisioning/docker.html) (Docker provisioner)  
+[Nitrous](https://pro.nitrous.io/) (Docker containers as workspaces)  
+[Vagrant](https://www.vagrantup.com/docs/provisioning/docker.html) (Docker provisioner)  
 VMware [AppCatalyst](http://blogs.vmware.com/cloudnative/vmware-appcatalyst) (desktop hypervisor optimized for containers)  
 
 ####Source Code Management
@@ -84,7 +84,7 @@ VMware [AppCatalyst](http://blogs.vmware.com/cloudnative/vmware-appcatalyst) (de
 CloudBees [Jenkins CI](https://www.cloudbees.com/jenkins/about/code-quality-analysis) (build slaves runnable within  containers)  
 Codefresh [Codefresh](http://codefresh.io/) (Docker-based continuous integration for NodeJS)  
 [Codeship](https://codeship.com) (Docker-based continuous integration and delivery)  
-[Drone.io](http://blog.drone.io/2014/2/5/open-source-ci-docker.html) (open source continuous integration built on Docker)  
+[Drone.io](https://drone.io/) (open source continuous integration built on Docker)  
 [Electric Cloud](http://electric-cloud.com/plugins/directory/p/docker/) (plug-in to invoke containers while building)  
 [Shippable](https://app.shippable.com/) (automated DevOps with Docker)  
 [Travis CI](https://travis-ci.org) (Docker-based continuous integration and delivery)  
@@ -119,7 +119,6 @@ Docker [Trusted Registry](https://docs.docker.com/docker-trusted-registry/) (pri
 [Google Container Registry](https://cloud.google.com/container-registry/) (secure Docker image storage)  
 JFrog [Artifactory](http://www.jfrog.com/confluence/display/RTF/Docker+Repositories) (doubles as Docker and artifact registry)  
 [Quay.io](https://quay.io/plans/) (secure hosting for Docker registries)  
-[Tutum Registry](https://support.tutum.co/support/solutions/articles/5000012183-using-tutum-s-private-Docker-image-registry) (private Docker registry)  
 
 ####Release Automation
 Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (application management for container & VM infrastructure)  
@@ -163,7 +162,7 @@ Ubuntu [LXD](http://www.ubuntu.com/cloud/lxd) (linux container hypervisor)
 CoreOS [clair](https://github.com/coreos/clair) (vulnerability detection in docker containers)  
 
 ####CONTAINER STORAGE  
-[Brightbox](https://brightbox.com)(high performance and flexible cloud servers and storage)  
+[Brightbox](https://brightbox.com) (high performance and flexible cloud servers and storage)  
 [Ceph](http://ceph.com/) (distributed block storage for Docker)  
 ClusterHQ [Flocker](https://clusterhq.com/2015/06/17/flocker-1-0/) (open source container data volume manager)  
 Portworx [PWX](http://portworx.com/products/) (scale out block storage for Docker)  
@@ -194,7 +193,7 @@ Amazon [EC2 Container Service](http://aws.amazon.com/ecs/) (Docker extension too
 [Apcera](https://www.apcera.com) (trust and policy-driven platform for container workloads)   
 CenturyLink [Cloud](https://www.ctl.io/) (cloud management service with container support)  
 [ContainerX.io](http://containerx.io/) (Container-as-a-Service platform)  
-Datawise.io [Project 6](http://www.datawise.io/project-6.html) (deploy Docker containers across clusters)  
+[Diamanti](https://diamanti.com) (http://www.datawise.io/project-6.html) (deploy Docker containers across clusters)  
 EngineYard [Deis](http://deis.io/overview/) (open source PaaS for Docker)  
 Joyent [Triton](https://www.joyent.com/) (elastic container infrastructure)  
 [Giant Swarm](https://giantswarm.io/) (native container infrastructure)  
@@ -204,7 +203,7 @@ HP [Helion ActiveState](http://www8.hp.com/us/en/cloud/helion-devplatform-overvi
 IBM [Bluemix](https://console.ng.bluemix.net/) (hybrid PaaS based upon CloudFoundry and Docker)  
 [Jelastic](https://jelastic.com/docker/) (multi-container orchestration platform)  
 Magnetic.io [VAMP] (http://www.vamp.io/) (microservices platform powered by containers)  
-Mesosphere [DCOS](https://mesosphere.com/product/) (data center OS works with Docker)  
+Mesosphere [DC/OS](https://mesosphere.com/enterprise/) (data center OS works with Docker)  
 Microsoft [Azure](https://azure.microsoft.com/en-us/) (PaaS with container-managed services)  
 [Nirmata](http://nirmata.com/tag/docker/) (container deployment and operations platform)  
 OpenStack [Magnum](https://wiki.openstack.org/wiki/Magnum) (lauches Kubenetes or Docker ready images)  
