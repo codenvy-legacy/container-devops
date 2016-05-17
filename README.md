@@ -65,8 +65,9 @@ Eclipse [Che](http://www.eclipse.org/che/) (hosted workspaces using containers f
 Eclipse for [Docker](https://www.eclipse.org/community/eclipse_newsletter/2015/june/article3.php) (manages containers and images)  
 JetBrains [IntelliJ IDEA](https://www.jetbrains.com/idea/) (manages Docker containers from IDE)  
 [Nitrous](https://pro.nitrous.io/) (Docker containers as workspaces)  
+Samsung [ARTIK IDE](https://www.eclipse.org/che/artik/) (IoT IDE with Docker runtime)  
+SAP [Web IDE](https://hcp.sap.com/try.html) (uses Docker to build / run services)
 [Vagrant](https://www.vagrantup.com/docs/provisioning/docker.html) (Docker provisioner)  
-VMware [AppCatalyst](http://blogs.vmware.com/cloudnative/vmware-appcatalyst) (desktop hypervisor optimized for containers)  
 
 ####Source Code Management
 [Bitbucket Server](https://bitbucket.org/atlassian/docker-atlassian-bitbucket-server) (version control provided in containers)  
@@ -147,6 +148,7 @@ Alpine Linux [Docker Image](http://gliderlabs.viewdocs.io/docker-alpine/) (mimia
 RancherLabs [RancherOS](http://rancher.com/rancher-os/) (Linux distribution that runs OS as Docker containers)   
 Red Hat [Atomic](http://www.projectatomic.io/) (lightweight immutable platform for running containers)  
 Ubuntu [Snappy Core](http://www.ubuntu.com/cloud/snappy) (transactional updates from within containers)  
+VMware [AppCatalyst](http://blogs.vmware.com/cloudnative/vmware-appcatalyst) (desktop hypervisor optimized for containers)  
 VMware [Photon](https://vmware.github.io/photon/) (lightweight Linux host for containers)  
 
 ####CONTAINER RUNTIMES  
