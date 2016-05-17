@@ -160,6 +160,7 @@ Ubuntu [LXD](http://www.ubuntu.com/cloud/lxd) (linux container hypervisor)
 
 ####CONTAINER SECURITY  
 CoreOS [clair](https://github.com/coreos/clair) (vulnerability detection in docker containers)  
+Docker [Security Scanning](https://blog.docker.com/2016/05/docker-security-scanning/) (security profile of Docker images)
 
 ####CONTAINER STORAGE  
 [Brightbox](https://brightbox.com) (high performance and flexible cloud servers and storage)  
