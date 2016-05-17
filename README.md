@@ -69,6 +69,7 @@ Continuous Deployment
 ####Developer Workspace
 [Codenvy](https://codenvy.com/) (RESTful workspaces built with Docker containers)  
 Eclipse [Che](http://www.eclipse.org/che/) (hosted workspaces using containers for microservices)  
+Eclipse for [Docker](https://www.eclipse.org/community/eclipse_newsletter/2015/june/article3.php) (manages containers and images)
 JetBrains [IntelliJ IDEA](https://www.jetbrains.com/idea/) (manages Docker containers from IDE)  
 [Nitrous](https://pro.nitrous.io/) (Docker containers as workspaces)  
 [Vagrant](https://www.vagrantup.com/docs/provisioning/docker.html) (Docker provisioner)  
