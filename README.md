@@ -1,14 +1,7 @@
 ﻿# container-devops
 
-#How Containers are Disrupting Devops
-DevOps is implemented through a continuous delivery software pipeline which includes development, integration and deployment. With the rapid adoption of containers we asked ourselves, “How do containers redefine DevOps?”
-
-
-##Containers Make Environments Consistent
-Containers provide common building blocks reusable in any development stage to recreate identical environments for development, testing, staging, and production. Containers extend the idea of write once; deploy anywhere, to an infrastructure abstraction that application developers can easily consume and operations professionals can predictably manage.
-
-##Containers Make Tooling Consistent
-Containers provide a disposable, reusable unit that can execute a segment of a delivery pipeline. Critical code quality, analysis, build, and test functions can be consistently reused within developer workspaces, continuous integration systems, and release management tools. Service injection into containers allows developers to code more productively and tooling vendors to provide value throughout the pipeline.
+#The Container Disruption.
+Containers are changing the nature of DevOps and transforming infrastructure. They make *tooling and environments consistent* by providing common building blocks reusable in any development stage. For tools, containers provide a disposable, reusable unit that modularizes the delivery pipeline.  For environments, they extend the write once-deploy anywhere abstraction to infrastructure. 
 
 ----------------------------------------------------------------------
 
@@ -37,7 +30,7 @@ Containers defined by recipes allow developers to edit, version and commit chang
 ----------------------------------------------------------------------
 
 ##Continuous Delivery and DevOps with Containers
-Containers are used to evolve and revolutionize the continuous delivery and DevOps pipelines.
+Containers are simplifying simplify the continuous delivery pipeline.
 
 1st Column
 ###Continuous Delivery:
@@ -144,7 +137,8 @@ CenturyLink Labs [Panamax](http://panamax.io/) (tools to visualize & manage cont
 
 ----------------------------------------------------------------------
 
-##Container Infrastructure
+##Container Infrastructure.
+Containers force a rethink of the entire stack, moving towards modular, orchestrated, microservices platforms.
 
 ####MINIMAL OS  
 Alpine [Linux](http://www.alpinelinux.org) (lightweight operating system container-optimized)  
