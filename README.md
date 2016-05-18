@@ -115,6 +115,7 @@ Docker [Trusted Registry](https://docs.docker.com/docker-trusted-registry/) (pri
 [Google Container Registry](https://cloud.google.com/container-registry/) (secure Docker image storage)  
 JFrog [Artifactory](http://www.jfrog.com/confluence/display/RTF/Docker+Repositories) (doubles as Docker and artifact registry)  
 [Quay.io](https://quay.io/plans/) (secure hosting for Docker registries)  
+Twistlock [Trust](https://www.twistlock.com/trust/) (scans images and registries for vulnerabilities)
 
 ####Release Automation
 Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (application management for container & VM infrastructure)  
@@ -159,6 +160,7 @@ Ubuntu [LXD](http://www.ubuntu.com/cloud/lxd) (linux container hypervisor)
 ####CONTAINER SECURITY  
 CoreOS [clair](https://github.com/coreos/clair) (vulnerability detection in docker containers)  
 Docker [Security Scanning](https://blog.docker.com/2016/05/docker-security-scanning/) (security profile of Docker images)
+Twistlock [Runtime](https://www.twistlock.com/runtime/) (real-time protection of containerized apps)
 
 ####CONTAINER STORAGE  
 [Brightbox](https://brightbox.com) (high performance and flexible cloud servers and storage)  
