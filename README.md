@@ -210,6 +210,7 @@ Microsoft [Azure](https://azure.microsoft.com/en-us/) (PaaS with container-manag
 OpenStack [Magnum](https://wiki.openstack.org/wiki/Magnum) (lauches Kubenetes or Docker ready images)  
 OpenStack [Nova](https://wiki.openstack.org/wiki/Docker) (launches containers on a massive scale)  
 [PaSTA](https://github.com/Yelp/paasta) (uses containers to run distributed services)  
+[Pivotal Cloud Foundry](http://pivotal.io/) (Cloud-native, container-driven application platform)  
 RancherLabs [Rancher](http://rancher.com/rancher/) (infrastructure platform for Docker)  
 Red Hat [OpenShift](https://www.openshift.com/) (hybrid PaaS based on Docker)  
 [Skippbox](http://www.skippbox.com/) (toolkit to deploy Kubernetes and Docker)  
