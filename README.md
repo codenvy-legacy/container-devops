@@ -214,7 +214,7 @@ OpenStack [Nova](https://wiki.openstack.org/wiki/Docker) (launches containers on
 RancherLabs [Rancher](http://rancher.com/rancher/) (infrastructure platform for Docker)  
 Red Hat [OpenShift](https://www.openshift.com/) (hybrid PaaS based on Docker)  
 [Skippbox](http://www.skippbox.com/) (toolkit to deploy Kubernetes and Docker)  
-[Stackpoint.io](https://stackpoint.io/) (universal control plane for Kubernetes clouds)  
+[Stackpoint.io](https://stackpoint.io/) (universal control plane for Kubernetes)  
 Spotify [Helios](https://github.com/spotify/helios) (Docker orchestration platform)  
 [Supergiant] (http://supergiant.io/) (containerizing stateful apps on Kubernetes)
 
