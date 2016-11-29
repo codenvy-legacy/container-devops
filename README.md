@@ -78,7 +78,7 @@ SAP [Web IDE](https://hcp.sap.com/try.html) (uses Docker to build / run services
 ####Continuous Integration
 [CircleCi](https://circleci.com/docs/docker) (supports Docker-based dev, test and deploy workflow)  
 CloudBees [Jenkins CI](https://www.cloudbees.com/jenkins/about/code-quality-analysis) (build slaves runnable within  containers)  
-Codefresh [Codefresh](http://codefresh.io/) (Docker-based continuous integration for NodeJS)  
+Codefresh [Codefresh](http://codefresh.io/) (Docker-based continuous integration and delivery)  
 [Codeship](https://codeship.com) (Docker-based continuous integration and delivery)  
 [Drone.io](https://drone.io/) (open source continuous integration built on Docker)  
 [Electric Cloud](http://electric-cloud.com/plugins/directory/p/docker/) (plug-in to invoke containers while building)  
