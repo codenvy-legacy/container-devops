@@ -1,39 +1,39 @@
 ﻿# container-devops
 
-#The Container Disruption.
+# The Container Disruption.
 Containers are changing the nature of DevOps and transforming infrastructure. They make *tooling and environments consistent* by providing common building blocks reusable in any development stage. For tools, containers provide a disposable, reusable unit that modularizes the delivery pipeline.  For environments, they extend the write once-deploy anywhere abstraction to infrastructure. 
 
 ----------------------------------------------------------------------
 
-##Code & Image Lifecycle with Containers
+## Code & Image Lifecycle with Containers
 Containers defined by recipes allow developers to edit, version and commit changes in the same way they do code leading to a similar (and sometimes dependent) image lifecycle.
 
-###The Code Lifecycle
+### The Code Lifecycle
 
-####1) Clone  
-####2) Edit  
-####3) Analyze  
-####4) Build
-####5) Package (artifacts and source injected)
-####6) Run
-####7) Debug
-####8) Commit
-####9) Push
+#### 1) Clone  
+#### 2) Edit  
+#### 3) Analyze  
+#### 4) Build
+#### 5) Package (artifacts and source injected)
+#### 6) Run
+#### 7) Debug
+#### 8) Commit
+#### 9) Push
 
-###The Image Lifecycle
-####1) Clone
-####2) Edit
-####3) Build (dependency)
-####4) Label
-####5) Push
+### The Image Lifecycle
+#### 1) Clone
+#### 2) Edit
+#### 3) Build (dependency)
+#### 4) Label
+#### 5) Push
 
 ----------------------------------------------------------------------
 
-##Continuous Delivery and DevOps with Containers
+## Continuous Delivery and DevOps with Containers
 Containers are simplifying simplify the continuous delivery pipeline.
 
 1st Column
-###Continuous Delivery:
+### Continuous Delivery:
 Continuous Development
 
 Continuous Integration
@@ -42,7 +42,7 @@ Continuous Deployment
 
 
 2nd column
-###DevOps Pipeline:
+### DevOps Pipeline:
 1. Author Code & Check-In
 2. Check Out & Build Code
 3. Unit Test
@@ -57,9 +57,9 @@ Continuous Deployment
 
 ----------------------------------------------------------------------
 
-###Continuous Development
+### Continuous Development
 
-####Developer Workspace
+#### Developer Workspace
 [Codenvy](https://codenvy.com/) (RESTful workspaces built with Docker containers)  
 Eclipse [Che](http://www.eclipse.org/che/) (hosted workspaces using containers for microservices)  
 Eclipse for [Docker](https://www.eclipse.org/community/eclipse_newsletter/2015/june/article3.php) (manages containers and images)  
@@ -69,13 +69,13 @@ Samsung [ARTIK IDE](https://www.eclipse.org/che/artik/) (IoT IDE with Docker run
 SAP [Web IDE](https://hcp.sap.com/try.html) (uses Docker to build / run services)
 [Vagrant](https://www.vagrantup.com/docs/provisioning/docker.html) (Docker provisioner)  
 
-####Source Code Management
+#### Source Code Management
 [Bitbucket Server](https://bitbucket.org/atlassian/docker-atlassian-bitbucket-server) (version control provided in containers)  
 [Gitlab](http://doc.gitlab.com/omnibus/docker/) (version control provided in containers)  
 
-###Continuous Integration
+### Continuous Integration
 
-####Continuous Integration
+#### Continuous Integration
 [CircleCi](https://circleci.com/docs/docker) (supports Docker-based dev, test and deploy workflow)  
 CloudBees [Jenkins CI](https://www.cloudbees.com/jenkins/about/code-quality-analysis) (build slaves runnable within  containers)  
 Codefresh [Codefresh](http://codefresh.io/) (Docker-based continuous integration for NodeJS)  
@@ -87,27 +87,27 @@ Codefresh [Codefresh](http://codefresh.io/) (Docker-based continuous integration
 [Wercker](http://wercker.com/) (Docker-based dev, build and deploy automation)  
 XebiaLabs [Overcast](https://github.com/xebialabs/overcast) (Docker for integration testing with other services)  
 
-####Code Quality Analysis
+#### Code Quality Analysis
 [Code Climate](https://codeclimate.com/) (static analysis with containers)  
 [SonarQube](http://www.sonarqube.org/) (code quality with containers)  
 
-####Packaging and Build Automation
+#### Packaging and Build Automation
 Atlassian [Bamboo](https://www.atlassian.com/software/bamboo)(uses Docker containers to create build agents)  
 [Bitnami](https://bitnami.com/) (image cloud hosting)  
 Bitnami [Stacksmith](https://stacksmith.bitnami.com/) (image build and packager through API)  
 [Gradle](https://gradle.org) (build management through Docker)  
 HashiCorp [Packer](https://www.packer.io/) (image construction automation)  
 
-####Testing Frameworks
+#### Testing Frameworks
 [PhantomJsEnv](https://github.com/Codeception/PhantomJsEnv) (can be run through Docker instead of installed)  
 [RoboCI](https://github.com/Codegyre/RoboCI) (aimed to run Travis CI builds locally inside Docker containers)  
 [Salt](http://docs.saltstack.com/en/latest/ref/states/all/salt.states.dockerio.html) (allows unit testing within container)  
 [Selenium](https://github.com/Codeception/SeleniumEnv) (can be run through Docker instead of installed)  
 
 
-###Continuous Deployment
+### Continuous Deployment
 
-####Artifact and Image Registry
+#### Artifact and Image Registry
 Amazon [EC2 Container Registry](https://aws.amazon.com/ecr/) (managed hosted registry service)  
 Docker [Hub](https://hub.docker.com/) (hosted registry service)  
 Docker [Trusted Registry](https://docs.docker.com/docker-trusted-registry/) (private dedicated image registry)  
@@ -117,7 +117,7 @@ JFrog [Artifactory](http://www.jfrog.com/confluence/display/RTF/Docker+Repositor
 [Quay.io](https://quay.io/plans/) (secure hosting for Docker registries)  
 Twistlock [Trust](https://www.twistlock.com/trust/) (scans images and registries for vulnerabilities)
 
-####Release Automation
+#### Release Automation
 Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (application management for container & VM infrastructure)  
 [Ansible](http://www.ansible.com/docker) (playbooks will generate consistent app in containers & VMs)  
 [Chef](https://www.chef.io/solutions/containers/) (container management, provisioning and automation)  
@@ -126,7 +126,7 @@ Amazon [OpsWorks](http://aws.amazon.com/opsworks/) (application management for c
 PuppetLabs [Puppet Forge](https://forge.puppetlabs.com/tags/docker) (Docker management)  
 [Salt](http://docs.saltstack.com/en/latest/ref/states/all/salt.states.dockerio.html) (container management, provisioning and automation)  
 
-####Operations Tools
+#### Operations Tools
 [AppDynamics](http://community.appdynamics.com/t5/eXchange-Community-AppDynamics/Docker-Monitoring-Extension/idi-p/14749) (extension for Docker monitoring)  
 CenturyLink Labs [Panamax](http://panamax.io/) (tools to visualize & manage containers)  
 [Datadog](https://www.datadoghq.com/blog/datadog-docker-etp/) (distributed container monitoring, visualization, and analytics)  
@@ -139,10 +139,10 @@ CenturyLink Labs [Panamax](http://panamax.io/) (tools to visualize & manage cont
 
 ----------------------------------------------------------------------
 
-##Container Infrastructure.
+## Container Infrastructure.
 Containers force a rethink of the entire stack, moving towards modular, orchestrated, microservices platforms.
 
-####MINIMAL OS  
+#### MINIMAL OS  
 Alpine [Linux](http://www.alpinelinux.org) (lightweight operating system container-optimized)  
 Alpine Linux [Docker Image](http://gliderlabs.viewdocs.io/docker-alpine/) (mimialist Docker OS image)  
 [CoreOS](https://coreos.com/using-coreos/) (minimal OS for scaling with embedded Docker)  
@@ -152,28 +152,28 @@ Ubuntu [Snappy Core](http://www.ubuntu.com/cloud/snappy) (transactional updates 
 VMware [AppCatalyst](http://blogs.vmware.com/cloudnative/vmware-appcatalyst) (desktop hypervisor optimized for containers)  
 VMware [Photon](https://vmware.github.io/photon/) (lightweight Linux host for containers)  
 
-####CONTAINER RUNTIMES  
+#### CONTAINER RUNTIMES  
 [libvirt LXC](https://libvirt.org/drvlxc.html) (linux container engine)  
 [runC](https://runc.io/) (lightweight container runtime)  
 Ubuntu [LXD](http://www.ubuntu.com/cloud/lxd) (linux container hypervisor)  
 
-####CONTAINER SECURITY  
+#### CONTAINER SECURITY  
 CoreOS [clair](https://github.com/coreos/clair) (vulnerability detection in docker containers)  
 Docker [Security Scanning](https://blog.docker.com/2016/05/docker-security-scanning/) (security profile of Docker images)
 Twistlock [Runtime](https://www.twistlock.com/runtime/) (real-time protection of containerized apps)
 
-####CONTAINER STORAGE  
+#### CONTAINER STORAGE  
 [Brightbox](https://brightbox.com) (high performance and flexible cloud servers and storage)  
 [Ceph](http://ceph.com/) (distributed block storage for Docker)  
 ClusterHQ [Flocker](https://clusterhq.com/2015/06/17/flocker-1-0/) (open source container data volume manager)  
 Portworx [PWX](http://portworx.com/products/) (scale out block storage for Docker)  
 
-####CONTAINER NETWORKING  
+#### CONTAINER NETWORKING  
 CoreOS [flannel](https://coreos.com/flannel/docs/latest/flannel-config.html) (cross-container communication)  
 [Pertino](http://pertino.com/pertino-simplifies-networking-of-docker-containers-across-any-cloud-anywhere) (builds container-level VPC networks)  
 [Weave](http://weave.in/) (creates a network of Docker containers)  
 
-####SERVICE DISCOVERY  
+#### SERVICE DISCOVERY  
 AirBnB [SmartStack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) (service discovery in the cloud)  
 Apache [Zookeeper](https://zookeeper.apache.org) (centralizes container configurations)  
 CoreOS [etcd](https://github.com/coreos/etcd) (service discovery using consensus algorithm)  
@@ -181,7 +181,7 @@ HashiCorp [Consul](https://www.consul.io/) (finds and configure infrastructure s
 [Mesos-DNS](https://github.com/mesosphere/mesos-dns) (DNS-based service discovery)  
 Netflix [Eureka](https://github.com/Netflix/eureka) (REST-based service discovery)  
 
-####ORCHESTRATION, SCHEDULING, AND CLUSTER MANAGEMENT  
+#### ORCHESTRATION, SCHEDULING, AND CLUSTER MANAGEMENT  
 Apache [Mesos](http://mesos.apache.org/) (distributed systems and container kernel)  
 CoreOS [Tectonic](https://tectonic.com/) (kubernetes cluster for Docker)  
 Docker [Compose](https://docs.docker.com/compose/) (define and running multi-container applications)  
@@ -189,7 +189,7 @@ Docker [Machine](https://docs.docker.com/machine/) (automated Docker provisionin
 Docker [Swarm](https://docs.docker.com/swarm/) (native clustering for Docker)  
 Google [Kubernetes](http://kubernetes.io/) (orchestration of services running pods of containers)  
 
-####PLATFORMS  
+#### PLATFORMS  
 Amazon [EC2 Container Service](http://aws.amazon.com/ecs/) (Docker extension tools)  
 [Apcera](https://www.apcera.com) (trust and policy-driven platform for container workloads)   
 CenturyLink [Cloud](https://www.ctl.io/) (cloud management service with container support)  
@@ -220,7 +220,7 @@ Spotify [Helios](https://github.com/spotify/helios) (Docker orchestration platfo
 
 
 ----------------------------------------------------------------------
-##Footer
+## Footer
 Codenvy connects developer workspaces to the continuous delivery pipeline with on-demand developer environments that are replicable, collaborative and constraint-free.  www.codenvy.com
 
 Have ideas or feedback? Submit pull requests on GitHub: http://github.com/codenvy/container-devops
